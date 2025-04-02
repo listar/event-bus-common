@@ -20,7 +20,7 @@
 ## 安装
 
 ```bash
-npm install event-bus
+npm install event-bus-common --save
 ```
 
 ## 使用
@@ -28,7 +28,7 @@ npm install event-bus
 ### 基础用法
 
 ```typescript
-import { EventBus, EventPriority } from 'event-bus';
+import { EventBus, EventPriority } from 'event-bus-common';
 
 const eventBus = new EventBus();
 
@@ -74,7 +74,7 @@ eventBus.onAny(({ event, data }) => {
 ### 事件分组
 
 ```typescript
-import { EventManager } from 'event-bus';
+import { EventManager } from 'event-bus-common';
 
 const manager = new EventManager();
 
@@ -145,7 +145,7 @@ eventBus.restoreFromSnapshot(snapshot);
 ### 实用工具
 
 ```typescript
-import { EventUtils } from 'event-bus';
+import { EventUtils } from 'event-bus-common';
 
 // 节流
 const throttledFn = EventUtils.throttle((data) => {

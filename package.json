@@ -1,6 +1,6 @@
 {
   "name": "event-bus-common",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A powerful and flexible event bus library for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,12 +38,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/event-bus.git"
+    "url": "https://github.com/listar/event-bus-common.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/event-bus/issues"
+    "url": "https://github.com/listar/event-bus-common/issues"
   },
-  "homepage": "https://github.com/yourusername/event-bus#readme",
+  "homepage": "https://github.com/listar/event-bus-common",
   "changelog": {
     "1.1.0": [
       "新增事件过滤器功能",

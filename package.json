@@ -1,6 +1,6 @@
 {
   "name": "event-bus-common",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "description": "A powerful and flexible event bus library for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

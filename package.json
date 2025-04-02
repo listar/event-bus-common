@@ -1,0 +1,61 @@
+{
+  "name": "event-bus-common",
+  "version": "1.2.1",
+  "description": "A powerful and flexible event bus library for TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "publish": "tsc && npm publish --access=public",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "event-bus",
+    "event-emitter",
+    "typescript",
+    "event-management",
+    "state-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/event-bus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/event-bus/issues"
+  },
+  "homepage": "https://github.com/yourusername/event-bus#readme",
+  "changelog": {
+    "1.1.0": [
+      "新增事件过滤器功能",
+      "新增事件总线快照功能",
+      "新增事件管理器功能",
+      "新增状态管理功能",
+      "新增事件分组功能",
+      "新增事件历史记录功能",
+      "新增实用工具函数",
+      "优化错误处理机制",
+      "优化类型定义",
+      "完善测试用例"
+    ]
+  }
+} 
